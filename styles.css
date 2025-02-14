@@ -290,6 +290,13 @@ header {
     color: #ffffff; /* Color del texto */
     outline:none; /* Elimina el contorno */
 }
+.submit{
+    transition: all .3s ease;
+}
+.submit:hover{
+    background-color: #6f8bc3;
+    cursor:pointer;
+}
 
 /* Estilos para los placeholders de inputs y textarea */
 .form-cont input::placeholder, textarea::placeholder{
