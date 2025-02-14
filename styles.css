@@ -370,4 +370,25 @@ h2{
     }
 }
 
+/* Estilos para el ícono de WhatsApp que se muestra en la esquina inferior derecha */
+#whatsapp {
+    position: fixed; /* Fija el ícono en su posición */
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right:20px; /* Distancia desde la parte derecha */
+}
 
+/* Estilos para el ícono SVG dentro del botón de WhatsApp */
+svg {
+    width: 80px; /* Tamaño del ícono */
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4)); /* Añade una sombra al ícono */
+}
+
+/* Estilos para el círculo dentro del SVG */
+circle {
+    fill: #25d366; /* Color verde para el fondo del ícono */
+}
+
+/* Estilos para la ruta (path) dentro del SVG */
+path {
+    fill: #fff; /* Color blanco para el ícono */
+}
